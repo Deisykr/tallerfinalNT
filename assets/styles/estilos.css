@@ -1,0 +1,34 @@
+.banner{
+    background-image: url("../img/banner.png");
+    background-position: top center;
+    background-size: cover;
+    padding: 25%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+
+}
+
+.banner::after{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    background-color: black;
+    opacity: 0.3;
+
+}
+.banner2{
+    background-image: url("../img/Corantioquia-home.webp");
+    background-position: top center;
+    background-size: cover;
+    padding: 25%;
+    background-attachment: fixed;
+
+}
+.menu{
+    background-color: #2CCB46;
+}
